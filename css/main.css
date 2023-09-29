@@ -1,0 +1,130 @@
+/*header*/
+.navbar-nav{
+    background-color: rgb(0, 0, 0);
+}
+.navbar {
+    --bs-navbar-padding-y : 0;
+}
+.navbar-brand{
+    color: #FC9F01;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: #FC9F01;
+}
+.nav-link{
+    color: #FC9F01;
+}
+.nav-link:hover{
+    color: white;
+}
+.btn{
+    background-color: #FC9F01;
+    color: #000000;
+    font-weight: 600;
+    
+}
+
+/* main */
+.main {
+    background-color: rgb(36, 36, 36);
+    padding-top: 35px;
+    padding-bottom: 2%;
+    display: flex;
+    display: border-box;
+    position: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.titulo {
+    color: #f0f0f0d3;
+    text-align: center;
+    font-style: italic;
+    padding-top: 1px;
+}
+
+.sobre {
+    color: #f0f0f0d3;
+    padding-top: 8px;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 978;
+}
+.sobre-2 {
+    color: #f0f0f0d3;
+    padding-top: 15px;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 98%;
+}
+
+.escritorio {
+    height: 60%;
+    width: 97%;
+    box-shadow: 12px 12px 2px #636161;
+    border-radius: 5px;
+    border: solid 2px #9e9e9ed3;
+}
+
+#ver {
+    padding:  8px 22px;
+    position: absolute;
+    left: 22%;
+}
+
+
+.card {
+    height: 360px;
+    text-align: start;
+    display: flex;
+    overflow: auto;
+    background-color: #a3a3a3;
+    font-weight: 600;
+}
+::-webkit-scrollbar{
+    background-color: black;
+    width: 6px;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #b9b9b971;
+    border-radius: 5px;
+}
+.container-fluid {
+    background-color: rgb(0, 0, 0);
+    color: #FC9F01;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 3;
+}
+
+/* footer */
+.footer{
+    color: #8a8a8a;
+    background-color: black;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.redes {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#linkedin:hover {
+    background-color:#0a66c2;
+    color: #ffffff;
+}
+#github:hover {
+    background-color:#79cdf2 ;
+    color: #ffffff;
+}
