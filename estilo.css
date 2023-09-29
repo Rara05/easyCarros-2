@@ -1,0 +1,229 @@
+body{
+    background-image: url("/imagens/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: #f1d988;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+b{
+    margin-left: 2dvh;
+}
+
+/* Login */
+.hr-container {
+    display: flex;
+    color: #818181;
+}
+
+.hr-container hr {
+    flex: 1;
+    margin-inline: 10px;
+}
+
+
+.wallLogin{
+    background-image: url("https://olhardigital.com.br/wp-content/uploads/2020/08/20200811124326.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    filter: contrast(100%);
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+/* Login */
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(10px, auto);
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.92);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    margin-top: 3dvh;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.wallpaper{
+    position: relative;
+    width: 100%;
+    height: 33dvh;
+
+    /* text-align: center; */
+    background: var(--blur);
+    backdrop-filter: blur(2px);
+}
+
+a{
+    text-decoration: none;
+    color: #ee840c;
+    
+}
+
+a:hover{
+    color: #a55b06;
+}
+
+
+
+.form-label{
+    -webkit-text-stroke-width: 0.45px;
+    font-size: 20px;
+    -webkit-text-stroke-color: #b99a76;
+}
+
+.alteraTamanho{
+    height: 6dvh;
+    text-align: center;
+}
+
+.bt{
+    background-color: rgba(234, 166, 40, 0.5);
+    border-color: #ecd2a1;
+}
+
+.bt:hover{
+    background-color: rgba(206, 135, 3, 0.5);
+    border-color: #ecd2a1;
+}
+
+.btVerde{
+    background-color: rgba(40, 221, 70, 0.5);
+    border-color: #d5eca1;
+}
+
+.btVerde:hover{
+    background-color: rgba(20, 206, 3, 0.5);
+    border-color: #b6eca1;
+}
+
+.logout{
+    width: 5px;
+    position: relative;
+    left: 21rem;
+    top: 20dvmax;
+    display: flex;
+    align-items: center;
+}
+
+
+.logout:hover{
+    width: 5px;
+    color: #ffaf01;
+    font-size: 6px;
+}
+
+
+
+
+/* Perfil */
+
+.nick{
+    margin-top: 1dvmax;
+    font-family: 'Laila';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+.blur{
+    background: var(--blur);
+    backdrop-filter: blur(2px);
+}
+
+.lista{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 27px;
+    text-align: left;
+}
+
+.nickname{
+    margin-left: 5%;
+}
+
+.ladolado{
+    display: flex;
+    flex-wrap: row; 
+}
+
+.valor{
+    margin-inline: 5px;
+    font-size: larger;
+}
+
+.itens{
+    border: solid white 2px;
+    border-radius: 2em;
+    padding-inline: 10px;
+}
+
+.opcoes{
+    text-align: center;
+    margin-top: 7rem;
+    margin-inline: auto;
+    list-style-type: none;
+    width: min(25rem);
+}
+
+/* Perfil */
+
+
+.alterarCor{
+    filter: sepia(100%);
+}
