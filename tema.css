@@ -27,6 +27,9 @@
     --blur: rgba(234, 199, 40, 0.35);
     /* --brightness: brightness(1); */
     --img1: brightness(22%);
+    --border: rgb(255, 255, 255) ;
+    --inverter: 100%;
+
 
 }
 
@@ -44,6 +47,8 @@ body {
     background-size: 100dvh;
     background-repeat: no-repeat;
     background-position: center center;
+    --border: rgb(44, 44, 44) ;
+    --inverter: 0%;
 
 }
 

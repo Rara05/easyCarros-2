@@ -1,10 +1,12 @@
-function openNav() {
-    document.getElementById("myNav").style.width = "26rem";
-}
+// menu
 
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
+// function openNav() {
+//     document.getElementById("myNav").style.width = "26rem";
+// }
+
+// function closeNav() {
+//     document.getElementById("myNav").style.width = "0%";
+// }
 
 const BUTTON = document.querySelector("#trocarTema");
 const SYNC = document.querySelector("#sync")
