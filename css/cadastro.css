@@ -1,0 +1,73 @@
+/*header*/
+.cb {
+    background-color: #000000;
+
+}
+.navbar {
+    --bs-navbar-padding-y : 0;
+}
+.navbar-brand{
+    color: #FC9F01;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: #FC9F01;
+}
+.nav-link{
+    color: #FC9F01;
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+.btn{
+    background-color: #FC9F01;
+    color: #000000;
+    font-weight: 600;
+    }
+/* Pagina main */
+.pp {
+    background-color: #be4c00;
+}
+.titulo {
+    color: #ffffff;
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: 700;
+   }
+#forms {
+    background-color: #7e7e7e2f;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: italic;
+    box-shadow: 12px 12px 10px 5px #00000098;
+    border-radius: 15px;
+    border: solid 2px #00000070;
+}
+/* Botoes cadastro final */
+.botao {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+} 
+.proximo {
+    padding-left: 50px ;
+}
+
+.btn-success:hover {
+    padding: 10px;
+
+}
+.btn-warning:hover {
+    background-color: #ff0000;
+    color: aliceblue;
+    border-color: #ff0000;
+    padding: 10px;
+}
+/* Endereço */
+.aviso{
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-style: oblique;
+}
