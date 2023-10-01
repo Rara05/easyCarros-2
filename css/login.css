@@ -1,0 +1,69 @@
+/*header*/
+.cb {
+    background-color: #000000;
+
+}
+.navbar {
+    --bs-navbar-padding-y : 0;
+}
+.navbar-brand{
+    color: #FC9F01;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: #FC9F01;
+}
+.nav-link{
+    color: #FC9F01;
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+.btn{
+    background-color: #FC9F01;
+    color: #000000;
+    font-weight: 600;
+    }
+/*main*/
+
+body {
+    background-image: url("../img/estrada-com-nuvens.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+#forms {
+    background-color: #000000b0;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: italic;
+    box-shadow: 12px 12px 10px 5px #00000098;
+    border-radius: 15px;
+    border: solid 2px #00000070;
+}
+.container {
+    margin-top: 10px;   
+    color: #ffffff; 
+    margin-top: 30px;
+}
+.titulo {
+    color: #ffffff;
+    margin-top: 100px;
+    font-style: italic;
+}
+h5 {
+    margin-top: 10px;
+}
+.link-danger {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
