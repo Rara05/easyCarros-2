@@ -1,0 +1,18 @@
+
+body {
+    background: var(--bg);
+    color: var(--color);
+    background-size: 100dvh;
+
+
+    --bg: #2e2e2e;
+    --color: hsl(51, 100%, 85%);
+    --blur: rgba(234, 199, 40, 0.35);
+    /* --brightness: brightness(1); */
+    --img1: brightness(22%);
+    --border: rgb(255, 255, 255) ;
+    --inverter: 100%;
+
+}
+
+
